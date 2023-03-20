@@ -4,7 +4,7 @@ A python script that prompts the user to search YouTube, and downloads the selec
 - [PREREQUISITES](#Prerequisites)
 - [INSTALLATION](#Installation)
 - [REQUIRES](#Requires)
-- [RErunQUIRES](#Run)
+- [RUN](#Run)
 
 # Prerequisites:
 Python3
