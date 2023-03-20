@@ -9,7 +9,7 @@ A python script that prompts the user to search YouTube, and downloads the selec
 - [RUN](#Run)
 
 # ScreenShot:
-![yt-promt ScreenShot](/ScreenShot/screenshot.png?raw=true "yt-prompt Screen Shot")
+![yt-promt ScreenShot](/ScreenShot/screen.png?raw=true "yt-prompt Screen Shot")
 
 # Prerequisites:
 Python3
