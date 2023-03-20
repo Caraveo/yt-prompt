@@ -26,7 +26,7 @@ Python3
 
     pip install ijson
 
-Warning the above commands install the packages yt_dlp, youtubesearchpython, and ijson system wide.
+Warning the above commands install the packages [yt_dlp](https://github.com/yt-dlp/yt-dlp), [youtubesearchpython](https://github.com/alexmercerind/youtube-search-python), and [ijson](https://github.com/ICRAR/ijson) system wide.
 
 # Run: 
 
