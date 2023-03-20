@@ -1,14 +1,18 @@
 # yt-prompt
 A python script that prompts the user to search YouTube, and downloads the selected video(s).
 
+
+- [SCREENSHOT](#ScreenShot)
 - [PREREQUISITES](#Prerequisites)
 - [INSTALLATION](#Installation)
 - [REQUIRES](#Requires)
 - [RUN](#Run)
 
+# ScreenShot:
+![yt-promt ScreenShot](/ScreenShot/screenshot.png?raw=true "yt-prompt Screen Shot")
+
 # Prerequisites:
 Python3
-
 
 # Installation:
 
@@ -23,7 +27,8 @@ Python3
     pip install ijson
 
 Warning the above commands install the packages yt_dlp, youtubesearchpython, and ijson system wide.
-# run: 
+
+# Run: 
 
     cd yt-python
 
