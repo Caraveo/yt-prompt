@@ -3,11 +3,28 @@
 from youtubesearchpython import VideosSearch
 from yt_dlp import YoutubeDL
 import ijson
+import argparse
 
 def main():
-    print("Hello There!  What would you like to watch/download?")
-    search = input ("Enter your search term: ")
+    parser = argparse.ArgumentParser(
+            prog='YT-PROMPT',
+            description='Download YT Video',
+            epilog='Download a youtube video at best quality.')
+    try:
+        parser.add_argument("video", help='A video search term.', nargs='?')
+        arguments = parser.parse_args()
+        if not any(vars(arguments).values()):
+            print("Hello There!  What would you like to watch/download?")
+            argument = input("Enter your search term: ")
+            app(argument)
+        else:
+            app(arguments.video)
+    except:
+        Print("Argument Parsing Error, Try using Quotes.")
 
+
+def app(arg):
+    search = arg
     if search == "exit":
         print("Goodbye!")
         exit()
