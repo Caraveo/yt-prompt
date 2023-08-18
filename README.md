@@ -16,13 +16,11 @@ Python3
 
 # Installation:
 
-    git clone git@github.com:Caraveo/yt-prompt.git
-    
-    Install Using Setup Tools
+    pip install git+https://github.com/Caraveo/yt-prompt
 
-    pip install -e {Path TO yt-prompt}
+# Usage:
 
-    Run "youtube"
+    youtube "Adelle Hello"
 
 # Requires
 
@@ -31,6 +29,9 @@ Python3
     pip install youtube-search-python
 
     pip install ijson
+
+
+Make sure you have FFPMEG installed.
 
 Warning the above commands install the packages [yt_dlp](https://github.com/yt-dlp/yt-dlp), [youtubesearchpython](https://github.com/alexmercerind/youtube-search-python), and [ijson](https://github.com/ICRAR/ijson) system wide.
 
