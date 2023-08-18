@@ -37,9 +37,7 @@ Warning the above commands install the packages [yt_dlp](https://github.com/yt-d
 
 # Run: 
 
-    cd yt-python
-
-    python app.py
+    python yt-runner.py
 
 
 Have fun! :)
