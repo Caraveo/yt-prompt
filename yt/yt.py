@@ -20,7 +20,7 @@ def main():
         else:
             app(arguments.video)
     except:
-        Print("Argument Parsing Error, Try using Quotes.")
+        print("Argument Parsing Error, Try using Quotes.")
 
 
 def app(arg):

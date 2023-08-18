@@ -4,7 +4,7 @@ setup(
     packages=['yt'],
     package_dir={'yt': 'yt'},
     name='yt-prompt',
-    version='0.0.5',
+    version='0.0.6',
         entry_points = {
         "console_scripts": ['youtube = yt.yt:main']
         },
