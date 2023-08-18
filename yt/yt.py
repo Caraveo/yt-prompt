@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from youtubesearchpython import VideosSearch
 from yt_dlp import YoutubeDL
 import ijson
