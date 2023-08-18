@@ -17,12 +17,18 @@ Python3
 # Installation:
 
     git clone git@github.com:Caraveo/yt-prompt.git
+    
+    Install Using Setup Tools
+
+    pip install -e {Path TO yt-prompt}
+
+    Run "youtube"
 
 # Requires
 
     pip install yt_dlp
 
-    pip install youtubesearchpython
+    pip install youtube-search-python
 
     pip install ijson
 
