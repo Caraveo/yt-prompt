@@ -4,24 +4,23 @@ from youtubesearchpython import VideosSearch
 from yt_dlp import YoutubeDL
 import ijson
 import argparse
+from os import startfile
 
 def main():
     parser = argparse.ArgumentParser(
             prog='YT-PROMPT',
             description='Download YT Video',
             epilog='Download a youtube video at best quality.')
-    try:
-        parser.add_argument("video", help='A video search term.', nargs='?')
-        arguments = parser.parse_args()
-        if not any(vars(arguments).values()):
-            print("Hello There!  What would you like to watch/download?")
-            argument = input("Enter your search term: ")
-            app(argument)
-        else:
-            app(arguments.video)
-    except:
-        print("Argument Parsing Error, Try using Quotes.")
+    
+    parser.add_argument("video", help='A video search term.', nargs='?')
+    arguments = parser.parse_args()
+    if not any(vars(arguments).values()):
+        print("Hello There!  What would you like to watch/download?")
+        argument = input("Enter your search term: ")
+        app(argument)
 
+    else:
+        app(arguments.video)
 
 def app(arg):
     search = arg
@@ -102,6 +101,7 @@ def app(arg):
             print('Done downloading, now converting ...')
 
 
+
     ydl_opts = {
         'format': 'best',
         'postprocessors': [{
@@ -120,10 +120,14 @@ def app(arg):
                 vid = videoID[con]
                 with YoutubeDL(ydl_opts) as ydl:
                     videostr = str(vid)
-                    ydl.download(videostr)
+
+                    meta = ydl.extract_info(videostr, download=False)
+                    file_path = ydl.prepare_filename(meta)
+                    print(file_path)
+                    ydl.process_info(meta)
+                    startfile(file_path)
         else:
             print("Goodbye!")
             exit()
 
     download(DownloadID)
-
