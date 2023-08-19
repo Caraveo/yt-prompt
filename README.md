@@ -12,10 +12,17 @@ A python script that prompts the user to search YouTube, and downloads the selec
 ![yt-promt ScreenShot](/ScreenShot/screen.png?raw=true "yt-prompt Screen Shot")
 
 # Remember:
-    This script installs "youtube" command. 🤣 Remember to always support your favorite creators. YouTube AD revenue helps them!
-    Views, Comments, Interactions!
-    Also I am a Youtube Premium Member :)
-    Thank you YouTube for awesome videos! 
+This script installs "youtube" command. 🤣 
+
+Remember to always support your favorite creators. 
+
+YouTube AD revenue helps them!
+
+Views, Comments, Interactions!
+
+Also I am a Youtube Premium Member :)
+
+Thank you YouTube for awesome videos! 
 
 # Prerequisites:
 Python3
