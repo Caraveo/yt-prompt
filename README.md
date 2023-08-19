@@ -22,7 +22,9 @@ Views, Comments, Interactions!
 
 Also I am a Youtube Premium Member :)
 
-Thank you YouTube for awesome videos! 
+Thank you YouTube for awesome videos!
+
+This is for Learning purposes only!
 
 # Prerequisites:
 Python3
