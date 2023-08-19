@@ -35,9 +35,13 @@ Make sure you have FFPMEG installed.
 
 Warning the above commands install the packages [yt_dlp](https://github.com/yt-dlp/yt-dlp), [youtubesearchpython](https://github.com/alexmercerind/youtube-search-python), and [ijson](https://github.com/ICRAR/ijson) system wide.
 
-# Run: 
+# Local Run: 
 
     python yt-runner.py
+
+# Uninstall: 
+
+    pip uninstall yt-prompt
 
 
 Have fun! :)
